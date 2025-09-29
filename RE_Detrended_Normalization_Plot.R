@@ -1,5 +1,3 @@
-# i need to detrend and then normailze the streamflow data first
-
 #Step one detrend all the streamflow data
 
 #Step two normalize all the streamflow data
