@@ -42,9 +42,9 @@ for (i in seq_along(stations)) {
     scale_color_manual(values = c("Reconstructed (All Data)" = "blue")) +
     theme_minimal() +
     theme(
-      plot.title = element_text(size = 14, face = "bold"), # Increase size of plot title
-      axis.text = element_text(size = 10), # Increase axis label size
-      axis.title = element_text(size = 12) # Increase axis title size
+      plot.title = element_text(size = 14, face = "bold"), 
+      axis.text = element_text(size = 10), 
+      axis.title = element_text(size = 12) 
     ) +
     annotate("text", x = -Inf, y = Inf, label = paste("R:", round(correlation, 2)), 
              hjust = -0.1, vjust = 2, size = 5, color = "black")
